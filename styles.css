@@ -370,3 +370,82 @@ footer {
 .review-names {
     font-size: 18px;
 }
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.contact-flex {
+    flex: 1;
+    justify-items: center;
+}
+
+.contact-flex  h1 {
+    text-align: center;
+    color: #7cb069;
+    text-transform: uppercase;
+}
+
+.contact-inner-flex {
+    display: flex;
+    padding: 20px 110px;
+}
+
+.contact-inner-content  i {
+    font-size: 25px;
+    color: #7cb069;
+    padding-bottom: 40px;
+}
+
+.contact-inner-content p {
+    color: #7cb069;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-number {
+    padding-top: 5px;
+}
+
+.contact-email {
+    padding-top: 33px;
+}
+
+.contact-social {
+    padding-left: 20px;
+}
+
+form legend {
+    color: #7cb069;
+    font-size: 18px; 
+}
+
+form input, textarea {
+    border: 1px solid #7cb069;
+    width: 250px;
+}
+
+form button {
+    color: #7cb069;
+    background-color: #fff;
+    border: 2px solid #7cb069;
+    padding: 5px 8px;
+}
+
+form input:hover, form textarea:hover {
+    border: 2px solid #8b698b;
+}
+
+form button:hover {
+    border: 2px solid #8b698b;
+    color: #8b698b;
+    background-color: #e9e1d6;
+}
