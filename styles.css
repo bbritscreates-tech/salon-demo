@@ -70,7 +70,7 @@ html, body {
 
 .nav-btn {
     border: 2px solid #8b698b;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 0 5px;
     margin-top: -4px;
 
@@ -110,3 +110,38 @@ html, body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+footer {
+    width: 100%;
+    background-color: #e9e1d6;
+    height: auto;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 25px 25px;
+}
+
+.footer-box {
+    flex: 1;
+    padding: 20px 20px;
+    border: 2px solid #8b698b;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-box h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #8b698b;
+}
+
+.footer-box a, .footer-box i, .footer-box p {
+    color: #8b698b;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+
