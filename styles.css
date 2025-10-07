@@ -324,3 +324,49 @@ footer {
     margin-bottom: 30px;
 }
 
+.review-section {
+    width: 100%;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.review-section h1 {
+    color: #8b698b;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.review-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 70px;
+}
+
+.review-box {
+    flex: initial;
+    width: 250px;
+    background-color: #e9e1d6;
+    border-radius: 8px;
+    border: 2px solid #8b698b;
+    padding: 20px 20px;
+}
+
+.review-box i {
+    color: #7cb069;
+    font-size: 40px;
+}
+
+.review-box p {
+    color: #7cb069;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.review-names {
+    font-size: 18px;
+}
