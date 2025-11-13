@@ -619,7 +619,43 @@ form button:hover {
         width: 150px;
         justify-self: center;
     }
-}
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-inner-content i {
+        margin-top: 20px;
+    }
+
+    .contact-inner-content p {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .contact-number {
+        margin-top: -40px;
+        margin-bottom: 65px;
+    }
+
+    .contact-email {
+        margin-bottom: 5px;
+    }
+
+    .contact-flex form legend {
+        padding-bottom: 3px;
+    }
+
+    .contact-flex form input, .conta form textarea {
+        margin-bottom: 10px;
+    }
+
+    .contact-flex form button {
+        margin-top: 8px;
+        margin-left: 90px;
+    }
+
+}   
 
 @media (min-width: 481px) and (max-width: 640px) {
     .nav-links {
@@ -776,6 +812,43 @@ form button:hover {
     .review-flex {
         justify-content: center;
     }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-inner-content i {
+        margin-top: 20px;
+    }
+
+    .contact-inner-content p {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .contact-number {
+        margin-top: 30px !important;
+    }
+
+    .contact-email {
+        margin-top: 70px !important;
+        margin-bottom: 9px;
+    }
+
+    .contact-flex form legend {
+        padding-bottom: 3px;
+    }
+
+    .contact-flex form input, .conta form textarea {
+        margin-bottom: 10px;
+    }
+
+    .contact-flex form button {
+        margin-top: 8px;
+        margin-left: 90px;
+    }
+
+
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -924,6 +997,41 @@ form button:hover {
     .about-hero-content p {
         width: 400px;
         justify-self: center;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-inner-content i {
+        margin-top: 20px;
+    }
+
+    .contact-inner-content p {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .contact-number {
+        margin-top: 50px !important;
+    }
+
+    .contact-email {
+        margin-top: 70px !important;
+        margin-bottom: 6px;
+    }
+
+    .contact-flex form legend {
+        padding-bottom: 3px;
+    }
+
+    .contact-flex form input, .conta form textarea {
+        margin-bottom: 10px;
+    }
+
+    .contact-flex form button {
+        margin-top: 8px;
+        margin-left: 90px;
     }
 }
 
@@ -1078,6 +1186,41 @@ form button:hover {
     .review-flex {
         justify-content: center;
         gap: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-inner-content i {
+        margin-top: 20px;
+    }
+
+    .contact-inner-content p {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .contact-number {
+        margin-top: 50px !important;
+    }
+
+    .contact-email {
+        margin-top: 70px !important;
+        margin-bottom: 8px;
+    }
+
+    .contact-flex form legend {
+        padding-bottom: 3px;
+    }
+
+    .contact-flex form input, .conta form textarea {
+        margin-bottom: 10px;
+    }
+
+    .contact-flex form button {
+        margin-top: 8px;
+        margin-left: 100px;
     }
 }
 
@@ -1236,6 +1379,41 @@ form button:hover {
     .review-flex {
         justify-content: center;
         gap: 40px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-inner-content i {
+        margin-top: 20px;
+    }
+
+    .contact-inner-content p {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .contact-number {
+        margin-top: 50px !important;
+    }
+
+    .contact-email {
+        margin-top: 70px !important;
+        margin-bottom: 6px;
+    }
+
+    .contact-flex form legend {
+        padding-bottom: 3px;
+    }
+
+    .contact-flex form input, .conta form textarea {
+        margin-bottom: 10px;
+    }
+
+    .contact-flex form button {
+        margin-top: 8px;
+        margin-left: 90px;
     }
 }
 
