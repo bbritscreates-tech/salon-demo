@@ -768,6 +768,14 @@ form button:hover {
         width: 300px;
         justify-self: center;
     }
+
+    .review-section h1 {
+        font-size: 45px;
+    }
+
+    .review-flex {
+        justify-content: center;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -1066,6 +1074,11 @@ form button:hover {
         width: 500px;
         justify-self: center;
     }
+
+    .review-flex {
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 @media (min-width: 901px) and (max-width: 1024px) {
@@ -1214,6 +1227,15 @@ form button:hover {
     .about-hero-content p {
         width: 600px;
         justify-self: center;
+    }
+
+    .review-section h1 {
+        font-size: 60px;
+    }
+
+    .review-flex {
+        justify-content: center;
+        gap: 40px;
     }
 }
 
@@ -1365,5 +1387,10 @@ form button:hover {
     .about-hero-content p {
         width: 900px;
         justify-self: center;
+    }
+
+    .review-flex {
+        justify-content: center;
+        gap: 30px;
     }
 }
