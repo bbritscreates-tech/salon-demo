@@ -327,7 +327,7 @@ footer {
     background-color: #7cb069;
     margin: 0 100px;
     text-align: center;
-    height: 400px;
+    height: 320px;
 }
 
 .about-hero-content h1 {
@@ -608,6 +608,17 @@ form button:hover {
     .services-content {
         margin-left: -30px;
     }
+
+    .about-hero-content {
+        width: 270px;
+        justify-self: center;
+        height: 970px;
+    }
+
+    .about-hero-content p {
+        width: 150px;
+        justify-self: center;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
@@ -745,6 +756,17 @@ form button:hover {
 
     .services-content {
         margin-left: 10px;
+    }
+
+    .about-hero-content {
+        width: 400px;
+        justify-self: center;
+        height: 550px;
+    }
+
+    .about-hero-content p {
+        width: 300px;
+        justify-self: center;
     }
 }
 
@@ -884,6 +906,17 @@ form button:hover {
     .services-content {
         margin-left: -30px;
     }
+
+    .about-hero-content {
+        width: 600px;
+        justify-self: center;
+        height: 470px;
+    }
+
+    .about-hero-content p {
+        width: 400px;
+        justify-self: center;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 900px) {
@@ -1022,6 +1055,17 @@ form button:hover {
     .services-content {
         margin-left: -30px;
     }
+
+    .about-hero-content {
+        width: 700px;
+        justify-self: center;
+        height: 400px;
+    }
+
+    .about-hero-content p {
+        width: 500px;
+        justify-self: center;
+    }
 }
 
 @media (min-width: 901px) and (max-width: 1024px) {
@@ -1159,6 +1203,17 @@ form button:hover {
 
     .services-content {
         margin-left: -30px;
+    }
+
+    .about-hero-content {
+        width: 800px;
+        justify-self: center;
+        height: 400px;
+    }
+
+    .about-hero-content p {
+        width: 600px;
+        justify-self: center;
     }
 }
 
@@ -1299,5 +1354,16 @@ form button:hover {
         margin-left: -30px;
         justify-content: center;
         gap: 20px;
+    }
+
+    .about-hero-content {
+        width: 1100px;
+        justify-self: center;
+        height: 320px;
+    }
+
+    .about-hero-content p {
+        width: 900px;
+        justify-self: center;
     }
 }
