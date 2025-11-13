@@ -2,10 +2,12 @@
     margin: 0;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* stop sideways scroll */
+    overflow-x: hidden;
+    /* stop sideways scroll */
     scroll-behavior: smooth;
 }
 
@@ -59,7 +61,6 @@ html, body {
     color: #8b698b;
     text-decoration: none;
     padding: 0 10px;
-    font-size: ;
     text-align: center;
 }
 
@@ -80,7 +81,8 @@ html, body {
     position: relative;
 }
 
-.nav-links a:hover, .dropdown:hover .dropbtn {
+.nav-links a:hover,
+.dropdown:hover .dropbtn {
     color: #7cb069;
 }
 
@@ -104,7 +106,6 @@ html, body {
     padding: 3px 5px;
     display: block;
     white-space: nowrap;
-    color: ;
 }
 
 .dropdown:hover .dropdown-content {
@@ -138,7 +139,9 @@ footer {
     color: #8b698b;
 }
 
-.footer-box a, .footer-box i, .footer-box p {
+.footer-box a,
+.footer-box i,
+.footer-box p {
     color: #8b698b;
     padding: 10px 0;
     text-decoration: none;
@@ -286,7 +289,7 @@ footer {
     padding-top: 0;
 }
 
-.times-overlay h5{
+.times-overlay h5 {
     font-size: 35px;
     text-transform: uppercase;
     color: #52cf2a;
@@ -393,7 +396,7 @@ footer {
     justify-items: center;
 }
 
-.contact-flex  h1 {
+.contact-flex h1 {
     text-align: center;
     color: #7cb069;
     text-transform: uppercase;
@@ -404,7 +407,7 @@ footer {
     padding: 20px 110px;
 }
 
-.contact-inner-content  i {
+.contact-inner-content i {
     font-size: 25px;
     color: #7cb069;
     padding-bottom: 40px;
@@ -418,11 +421,11 @@ footer {
 }
 
 .contact-number {
-    padding-top: 5px;
+    margin-top: 22px;
 }
 
 .contact-email {
-    padding-top: 33px;
+    margin-top: 35px;
 }
 
 .contact-social {
@@ -431,10 +434,11 @@ footer {
 
 form legend {
     color: #7cb069;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-form input, textarea {
+form input,
+textarea {
     border: 1px solid #7cb069;
     width: 250px;
 }
@@ -446,7 +450,8 @@ form button {
     padding: 5px 8px;
 }
 
-form input:hover, form textarea:hover {
+form input:hover,
+form textarea:hover {
     border: 2px solid #8b698b;
 }
 
